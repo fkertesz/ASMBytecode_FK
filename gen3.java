@@ -1,5 +1,10 @@
+/**
+ * Generates program3 class that divides two numbers (I, L, F, and D), stores
+ * them, and then prints each result.
+ * @author Fanni Kertesz
+ * CS322 Assignment3 gen3
+ */
 import static utils.Utilities.writeFile;
-
 import org.objectweb.asm.*;
 import org.objectweb.asm.Opcodes;
 
@@ -7,7 +12,7 @@ public class gen3{
 
     public static void main(String[] args){
 
-        //Write class "program1"
+        //Write class "program3"
         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
         cw.visit(Opcodes.V1_8, Opcodes.ACC_PUBLIC,"program3", null, "java/lang/Object",null);
         

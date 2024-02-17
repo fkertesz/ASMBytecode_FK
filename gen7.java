@@ -1,12 +1,17 @@
-import static utils.Utilities.writeFile;
+/**
+ * Generates program7 class that implements a while loop.
+ * @author Fanni Kertesz
+ * CS322 Assignment3 gen7
+ */
 
+import static utils.Utilities.writeFile;
 import org.objectweb.asm.*;
 
 public class gen7{
 
     public static void main(String[] args){
 
-        //Write class "program1"
+        //Write class "program7"
         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
         cw.visit(Opcodes.V1_8, Opcodes.ACC_PUBLIC,"program7", null, "java/lang/Object",null);
         

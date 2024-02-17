@@ -1,5 +1,10 @@
-import static utils.Utilities.writeFile;
+/**
+ * Generates program6 class that gets input from the user using the Scanner class.
+ * @author Fanni Kertesz
+ * CS322 Assignment3 gen6
+ */
 
+import static utils.Utilities.writeFile;
 import org.objectweb.asm.*;
 import org.objectweb.asm.Opcodes;
 
@@ -7,7 +12,7 @@ public class gen6{
 
     public static void main(String[] args){
 
-        //Write class "program1"
+        //Write class "program6"
         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
         cw.visit(Opcodes.V1_8, Opcodes.ACC_PUBLIC,"program6", null, "java/lang/Object",null);
         

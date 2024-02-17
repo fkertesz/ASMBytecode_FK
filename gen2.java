@@ -1,5 +1,11 @@
-import static utils.Utilities.writeFile;
+/**
+ * Generates program2 class that subtracts two numbers (I, L, F, and D), stores them, and then
+ * prints each result.
+ * @author Fanni Kertesz
+ * CS322 Assignment3 gen2
+ */
 
+import static utils.Utilities.writeFile;
 import org.objectweb.asm.*;
 import org.objectweb.asm.Opcodes;
 

@@ -1,5 +1,9 @@
+/**
+ * Generates program5 class that declares and prints String Variables.
+ * @author Fanni Kertesz
+ * CS322 Assignment3 gen5
+ */
 import static utils.Utilities.writeFile;
-
 import org.objectweb.asm.*;
 import org.objectweb.asm.Opcodes;
 
@@ -7,7 +11,7 @@ public class gen5{
 
     public static void main(String[] args){
 
-        //Write class "program1"
+        //Write class "program5"
         ClassWriter cw = new ClassWriter(ClassWriter.COMPUTE_FRAMES);
         cw.visit(Opcodes.V1_8, Opcodes.ACC_PUBLIC,"program5", null, "java/lang/Object",null);
         

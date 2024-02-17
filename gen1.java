@@ -1,5 +1,10 @@
+/**
+ * Generates program1 class that multiply two numbers (I, L, F, and D), stores
+ * them, and then prints each result.
+ * @author Fanni Kertesz
+ * CS322 Assignment3 gen1
+ */
 import static utils.Utilities.writeFile;
-
 import org.objectweb.asm.*;
 import org.objectweb.asm.Opcodes;
 
